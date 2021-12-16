@@ -24,8 +24,8 @@ Please make sure that [Node.js](https://nodejs.org/) (>= 10.18.1) is installed o
 
 ```
 ├── src
-│   ├── controllers  ---  Server controllers
-│   ├── services     ---  Server services
+│   ├── controllers/ ---  Server controllers
+│   ├── services/    ---  Server services
 │   ├── config.ts    ---  About Environments variable
 │   ├── main.ts      ---  Entry file
 │   └── routes.ts    ---  Configs for routing controllers
