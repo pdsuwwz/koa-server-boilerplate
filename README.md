@@ -8,13 +8,13 @@ Please make sure that [Node.js](https://nodejs.org/) (>= 10.18.1) is installed o
 
 ## Feature
 
-✨ Separation Services logic and Controllers.
+🌟 Separation Services logic and Controllers.
 
-🐣 The Friendly practice for Koa project.
+🍓 The Friendly practice for Koa project.
 
 🌲 Configured routing.
 
-🏗 `Eslint` configuration.
+☃ `Eslint` configuration.
 
 ⚡ Fast build with `Rollup`.
 
