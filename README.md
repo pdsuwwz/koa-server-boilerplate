@@ -8,17 +8,17 @@ Please make sure that [Node.js](https://nodejs.org/) (>= 10.18.1) is installed o
 
 ## Feature
 
-- Separation Services logic and Controllers.
+✨ Separation Services logic and Controllers.
 
-- The Friendly practice for Koa project.
+🐣 The Friendly practice for Koa project.
 
-- Configured routing.
+🌲 Configured routing.
 
-- Eslint configuration.
+🏗 `Eslint` configuration.
 
-- Fast build with Rollup.
+⚡ Fast build with `Rollup`.
 
-- HMR.
+🔥 HMR.
 
 ## Project structure
 
@@ -45,8 +45,14 @@ pnpm dev
 
 ## Running Production
 
-The project has built-in a `pm2`, running the `pnpm start` will automatically manage the process by `pm2`.
+The project has built-in a `pm2`, when the `build` is completed, you can running the `pnpm start`, which will automatically manage the process by `pm2`.
 
+Run `pnpm build` to build:
+```bash
+pnpm build
+```
+
+All done! Now run this in your terminal:
 ```bash
 pnpm start
 ```
