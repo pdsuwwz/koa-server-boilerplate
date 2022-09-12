@@ -29,7 +29,7 @@ specifiers:
   nodemon: ^2.0.19
   pm2: ^5.2.0
   rollup: ^2.78.1
-  rollup-plugin-typescript2: ^0.33.0
+  rollup-plugin-typescript2: 0.34.0
   ts-node: ^10.9.1
   ts-toolbelt: ^9.6.0
   tsc-alias: ^1.7.0
@@ -68,7 +68,7 @@ devDependencies:
   nodemon: 2.0.19
   pm2: 5.2.0
   rollup: 2.78.1
-  rollup-plugin-typescript2: 0.33.0_accrhai6qopda76wnqb3pkewpq
+  rollup-plugin-typescript2: 0.34.0_accrhai6qopda76wnqb3pkewpq
   ts-node: 10.9.1_itmtyrrie7wpjnrpwbb5uqyzwa
   ts-toolbelt: 9.6.0
   tsc-alias: 1.7.0
@@ -4281,8 +4281,8 @@ packages:
       glob: 7.2.3
     dev: true
 
-  /rollup-plugin-typescript2/0.33.0_accrhai6qopda76wnqb3pkewpq:
-    resolution: {integrity: sha512-7ZXoZeX93kNb4/ICzOi2AlperVV6cAsNz8THqrbz+KNvpn47P2F/nFdK/BGhkoOsOwuYDuY57vccdZZrcd8/dA==}
+  /rollup-plugin-typescript2/0.34.0_accrhai6qopda76wnqb3pkewpq:
+    resolution: {integrity: sha512-dGtOz2kL6nQVgfIOmnA4Xh+5cFrs3bdu4jja/ej7WKR92RzOOixsn71LY5ZFFmKe1R677nUh+k2++NiY3un2PQ==}
     peerDependencies:
       rollup: '>=1.26.3'
       typescript: '>=2.4.0'
