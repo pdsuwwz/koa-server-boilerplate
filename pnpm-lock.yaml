@@ -10,7 +10,7 @@ specifiers:
   '@rollup/plugin-commonjs': ^22.0.2
   '@rollup/plugin-json': ^4.1.0
   '@rollup/plugin-node-resolve': 14.1.0
-  '@rollup/plugin-typescript': ^8.3.4
+  '@rollup/plugin-typescript': ^9.0.0
   '@types/bluebird': ^3.5.36
   '@types/koa': ^2.13.5
   '@types/koa-bodyparser': 4.3.8
@@ -53,7 +53,7 @@ devDependencies:
   '@rollup/plugin-commonjs': 22.0.2_rollup@2.78.1
   '@rollup/plugin-json': 4.1.0_rollup@2.78.1
   '@rollup/plugin-node-resolve': 14.1.0_rollup@2.78.1
-  '@rollup/plugin-typescript': 8.3.4_5zsqiitiqqdgwm4iemtywlnhku
+  '@rollup/plugin-typescript': 9.0.2_5zsqiitiqqdgwm4iemtywlnhku
   '@types/bluebird': 3.5.36
   '@types/koa': 2.13.5
   '@types/koa-bodyparser': 4.3.8
@@ -1561,18 +1561,20 @@ packages:
       rollup: 2.78.1
     dev: true
 
-  /@rollup/plugin-typescript/8.3.4_5zsqiitiqqdgwm4iemtywlnhku:
-    resolution: {integrity: sha512-wt7JnYE9antX6BOXtsxGoeVSu4dZfw0dU3xykfOQ4hC3EddxRbVG/K0xiY1Wup7QOHJcjLYXWAn0Kx9Z1SBHHg==}
-    engines: {node: '>=8.0.0'}
+  /@rollup/plugin-typescript/9.0.2_5zsqiitiqqdgwm4iemtywlnhku:
+    resolution: {integrity: sha512-/sS93vmHUMjzDUsl5scNQr1mUlNE1QjBBvOhmRwJCH8k2RRhDIm3c977B3wdu3t3Ap17W6dDeXP3hj1P1Un1bA==}
+    engines: {node: '>=14.0.0'}
     peerDependencies:
-      rollup: ^2.14.0
+      rollup: ^2.14.0||^3.0.0
       tslib: '*'
       typescript: '>=3.7.0'
     peerDependenciesMeta:
+      rollup:
+        optional: true
       tslib:
         optional: true
     dependencies:
-      '@rollup/pluginutils': 3.1.0_rollup@2.78.1
+      '@rollup/pluginutils': 5.0.2_rollup@2.78.1
       resolve: 1.22.1
       rollup: 2.78.1
       tslib: 2.4.0
@@ -1597,6 +1599,21 @@ packages:
     dependencies:
       estree-walker: 2.0.2
       picomatch: 2.3.1
+    dev: true
+
+  /@rollup/pluginutils/5.0.2_rollup@2.78.1:
+    resolution: {integrity: sha512-pTd9rIsP92h+B6wWwFbW8RkZv4hiR/xKsqre4SIuAOaOEQRxi0lqLke9k2/7WegC85GgUs9pjmOjCUi3In4vwA==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      rollup: ^1.20.0||^2.0.0||^3.0.0
+    peerDependenciesMeta:
+      rollup:
+        optional: true
+    dependencies:
+      '@types/estree': 1.0.0
+      estree-walker: 2.0.2
+      picomatch: 2.3.1
+      rollup: 2.78.1
     dev: true
 
   /@tootallnate/once/1.1.2:
