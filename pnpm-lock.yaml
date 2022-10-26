@@ -8,7 +8,7 @@ specifiers:
   '@koa/cors': 4.0.0
   '@rollup/plugin-babel': 6.0.0
   '@rollup/plugin-commonjs': ^22.0.2
-  '@rollup/plugin-json': ^4.1.0
+  '@rollup/plugin-json': ^5.0.0
   '@rollup/plugin-node-resolve': 14.1.0
   '@rollup/plugin-typescript': ^8.3.4
   '@types/bluebird': ^3.5.36
@@ -51,7 +51,7 @@ devDependencies:
   '@babel/preset-typescript': 7.18.6_@babel+core@7.18.10
   '@rollup/plugin-babel': 6.0.0_4ce4roknt3navmu3q3hwcigmqq
   '@rollup/plugin-commonjs': 22.0.2_rollup@2.78.1
-  '@rollup/plugin-json': 4.1.0_rollup@2.78.1
+  '@rollup/plugin-json': 5.0.1_rollup@2.78.1
   '@rollup/plugin-node-resolve': 14.1.0_rollup@2.78.1
   '@rollup/plugin-typescript': 8.3.4_5zsqiitiqqdgwm4iemtywlnhku
   '@types/bluebird': 3.5.36
@@ -1537,12 +1537,16 @@ packages:
       rollup: 2.78.1
     dev: true
 
-  /@rollup/plugin-json/4.1.0_rollup@2.78.1:
-    resolution: {integrity: sha512-yfLbTdNS6amI/2OpmbiBoW12vngr5NW2jCJVZSBEz+H5KfUJZ2M7sDjk0U6GOOdCWFVScShte29o9NezJ53TPw==}
+  /@rollup/plugin-json/5.0.1_rollup@2.78.1:
+    resolution: {integrity: sha512-QCwhZZLvM8nRcTHyR1vOgyTMiAnjiNj1ebD/BMRvbO1oc/z14lZH6PfxXeegee2B6mky/u9fia4fxRM4TqrUaw==}
+    engines: {node: '>=14.0.0'}
     peerDependencies:
-      rollup: ^1.20.0 || ^2.0.0
+      rollup: ^1.20.0||^2.0.0||^3.0.0
+    peerDependenciesMeta:
+      rollup:
+        optional: true
     dependencies:
-      '@rollup/pluginutils': 3.1.0_rollup@2.78.1
+      '@rollup/pluginutils': 5.0.2_rollup@2.78.1
       rollup: 2.78.1
     dev: true
 
@@ -1597,6 +1601,21 @@ packages:
     dependencies:
       estree-walker: 2.0.2
       picomatch: 2.3.1
+    dev: true
+
+  /@rollup/pluginutils/5.0.2_rollup@2.78.1:
+    resolution: {integrity: sha512-pTd9rIsP92h+B6wWwFbW8RkZv4hiR/xKsqre4SIuAOaOEQRxi0lqLke9k2/7WegC85GgUs9pjmOjCUi3In4vwA==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      rollup: ^1.20.0||^2.0.0||^3.0.0
+    peerDependenciesMeta:
+      rollup:
+        optional: true
+    dependencies:
+      '@types/estree': 1.0.0
+      estree-walker: 2.0.2
+      picomatch: 2.3.1
+      rollup: 2.78.1
     dev: true
 
   /@tootallnate/once/1.1.2:
