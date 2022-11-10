@@ -59,30 +59,32 @@ pnpm start
 
 ## Simple API
 
-* `GET /`
+> `/api` is the prefix for all routes.
+
+* `GET /api`
 
 Health check.
 
 ```bash
 curl --location --request GET \
-'http://localhost:5000/'
+'http://localhost:5000/api'
 ```
 
-* `GET /get_userinfo`
+* `GET /api/get_userinfo`
 
 Get User Info.
 
 ```bash
 curl --location --request GET \
-'http://localhost:5000/get_userinfo?userId=1234567'
+'http://localhost:5000/api/get_userinfo?userId=1234567'
 ```
 
-* `POST /gen_image`
+* `POST /api/gen_image`
 
 Generate a image to response.
 
 ```bash
-curl --location --request POST 'http://localhost:5000/gen_image' \
+curl --location --request POST 'http://localhost:5000/api/gen_image' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
 --data-urlencode 'url=http://www.google.com' --output test-image.png
 ```

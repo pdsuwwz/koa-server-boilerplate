@@ -12,6 +12,9 @@ export interface RequestBody {
 class UserController {
   private service = new UserService()
 
+  /**
+   * http://localhost:5000/api/get_userinfo?userId=100
+   */
   mainHandler = async (ctx: Koa.Context) => {
     const {
       userId

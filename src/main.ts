@@ -9,7 +9,9 @@ import { getLocalAddress } from '@/utils'
 
 
 const app = new Koa()
-const router = new Router()
+const router = new Router({
+  prefix: '/api'
+})
 
 
 // Routes Mapping
