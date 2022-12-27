@@ -9,8 +9,10 @@ import { getLocalAddress } from '@/utils'
 
 
 const app = new Koa()
+
+const ROUTER_PREFIX = '/api'
 const router = new Router({
-  prefix: '/api'
+  prefix: ROUTER_PREFIX
 })
 
 
@@ -49,14 +51,14 @@ app.listen(PORT, () => {
     blank2,
     `> Local:  `,
     '\x1b[36m',
-    `http://localhost:${PORT}/`,
+    `http://localhost:${PORT}${ROUTER_PREFIX}`,
     '\x1b[0m'
   )
   console.log(
     blank2,
     `> Network:`,
     '\x1b[36m',
-    `http://${localhost}:${PORT}/\n`,
+    `http://${localhost}:${PORT}${ROUTER_PREFIX}\n`,
     '\x1b[0m'
   )
 })
