@@ -6,6 +6,7 @@
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "noImplicitAny": true,
+    "skipLibCheck": true,
     // "noEmit": true,
     "isolatedModules": true,
     "allowSyntheticDefaultImports": true,
