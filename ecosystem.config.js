@@ -6,7 +6,7 @@ module.exports = {
     {
       name,
       script: path.resolve(__dirname, './dist/bundle.cjs.js'),
-      instances: require('os').cpus().length,
+      instances: 2, // require('os').cpus().length,
       autorestart: true,
       watch: true,
       env_production: {

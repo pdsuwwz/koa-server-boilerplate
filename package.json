@@ -16,7 +16,7 @@
     "dev": "nodemon",
     "watch": "babel-node src/main.ts --extensions \".ts\"",
     "clean:dist": "rm -rf ./dist",
-    "build": "pnpm clean:dist && rollup --c --configPlugin @rollup/plugin-typescript",
+    "build": "pnpm clean:dist && rollup --c --configPlugin @rollup/plugin-typescript --bundleConfigAsCjs",
     "tsbuild": "pnpm clean:dist && tsc && tsc-alias",
     "start": "pm2 start ecosystem.config.js --env production",
     "restart": "pm2 restart ecosystem.config.js --env production",
@@ -24,6 +24,7 @@
     "delete": "pm2 delete ecosystem.config.js",
     "delete:all": "pm2 delete all",
     "wc": "pm2 list",
+    "log": "pm2 log",
     "lint": "eslint . --ext .js,.ts",
     "lint:fix": "eslint . --ext .js,.ts --fix"
   },

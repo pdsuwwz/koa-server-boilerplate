@@ -48,10 +48,10 @@ const rollupConfig: RollupOptions = {
     }),
     nodeResolve(),
     json(),
-    ts(),
-    commonjs({
-      extensions: ['.js', '.ts']
-    })
+    ts()
+    // commonjs({
+    //   extensions: ['.js', '.ts']
+    // })
   ]
 }
 
