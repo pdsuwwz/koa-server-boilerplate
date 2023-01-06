@@ -10,7 +10,7 @@ specifiers:
   '@rollup/plugin-commonjs': ^24.0.0
   '@rollup/plugin-json': ^6.0.0
   '@rollup/plugin-node-resolve': 15.0.1
-  '@rollup/plugin-typescript': ^10.0.1
+  '@rollup/plugin-typescript': ^11.0.0
   '@types/bluebird': ^3.5.38
   '@types/koa': ^2.13.5
   '@types/koa-bodyparser': 4.3.10
@@ -53,7 +53,7 @@ devDependencies:
   '@rollup/plugin-commonjs': 24.0.0_rollup@3.8.1
   '@rollup/plugin-json': 6.0.0_rollup@3.8.1
   '@rollup/plugin-node-resolve': 15.0.1_rollup@3.8.1
-  '@rollup/plugin-typescript': 10.0.1_ibt5rx2czwcisfikm5cunc6g2i
+  '@rollup/plugin-typescript': 11.0.0_ibt5rx2czwcisfikm5cunc6g2i
   '@types/bluebird': 3.5.38
   '@types/koa': 2.13.5
   '@types/koa-bodyparser': 4.3.10
@@ -1572,8 +1572,8 @@ packages:
       rollup: 3.8.1
     dev: true
 
-  /@rollup/plugin-typescript/10.0.1_ibt5rx2czwcisfikm5cunc6g2i:
-    resolution: {integrity: sha512-wBykxRLlX7EzL8BmUqMqk5zpx2onnmRMSw/l9M1sVfkJvdwfxogZQVNUM9gVMJbjRLDR5H6U0OMOrlDGmIV45A==}
+  /@rollup/plugin-typescript/11.0.0_ibt5rx2czwcisfikm5cunc6g2i:
+    resolution: {integrity: sha512-goPyCWBiimk1iJgSTgsehFD5OOFHiAknrRJjqFCudcW8JtWiBlK284Xnn4flqMqg6YAjVG/EE+3aVzrL5qNSzQ==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^2.14.0||^3.0.0
