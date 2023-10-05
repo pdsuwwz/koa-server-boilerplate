@@ -6,7 +6,7 @@ specifiers:
   '@babel/preset-env': ^7.20.2
   '@babel/preset-typescript': ^7.18.6
   '@koa/cors': 4.0.0
-  '@rollup/plugin-babel': 6.0.3
+  '@rollup/plugin-babel': 6.0.4
   '@rollup/plugin-commonjs': ^24.0.0
   '@rollup/plugin-json': ^6.0.0
   '@rollup/plugin-node-resolve': 15.0.1
@@ -49,7 +49,7 @@ devDependencies:
   '@babel/node': 7.20.7_@babel+core@7.20.7
   '@babel/preset-env': 7.20.2_@babel+core@7.20.7
   '@babel/preset-typescript': 7.18.6_@babel+core@7.20.7
-  '@rollup/plugin-babel': 6.0.3_dfwdex4qe3e2dx2m4b7f5c5gee
+  '@rollup/plugin-babel': 6.0.4_dfwdex4qe3e2dx2m4b7f5c5gee
   '@rollup/plugin-commonjs': 24.0.0_rollup@3.8.1
   '@rollup/plugin-json': 6.0.0_rollup@3.8.1
   '@rollup/plugin-node-resolve': 15.0.1_rollup@3.8.1
@@ -1504,13 +1504,13 @@ packages:
       - supports-color
     dev: true
 
-  /@rollup/plugin-babel/6.0.3_dfwdex4qe3e2dx2m4b7f5c5gee:
-    resolution: {integrity: sha512-fKImZKppa1A/gX73eg4JGo+8kQr/q1HBQaCGKECZ0v4YBBv3lFqi14+7xyApECzvkLTHCifx+7ntcrvtBIRcpg==}
+  /@rollup/plugin-babel/6.0.4_dfwdex4qe3e2dx2m4b7f5c5gee:
+    resolution: {integrity: sha512-YF7Y52kFdFT/xVSuVdjkV5ZdX/3YtmX0QulG+x0taQOtJdHYzVU61aSSkAgVJ7NOv6qPkIYiJSgSWWN/DM5sGw==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       '@babel/core': ^7.0.0
       '@types/babel__core': ^7.1.9
-      rollup: ^1.20.0||^2.0.0||^3.0.0
+      rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
     peerDependenciesMeta:
       '@types/babel__core':
         optional: true
@@ -2067,7 +2067,7 @@ packages:
   /axios/1.3.4:
     resolution: {integrity: sha512-toYm+Bsyl6VC5wSkfkbbNB6ROv7KY93PEBBL6xyDczaIHasAiv4wPqQ/c4RjoQzipxRD2W5g21cOqQulZ7rHwQ==}
     dependencies:
-      follow-redirects: 1.15.2_debug@4.3.4
+      follow-redirects: 1.15.2
       form-data: 4.0.0
       proxy-from-env: 1.1.0
     transitivePeerDependencies:
@@ -2888,6 +2888,16 @@ packages:
 
   /flatted/3.2.7:
     resolution: {integrity: sha512-5nqDSxl8nn5BSNxyR3n4I6eDmbolI6WT+QqR547RwxQapgjQBmtktdP+HTBb/a/zLsbzERTONyUB5pefh5TtjQ==}
+    dev: true
+
+  /follow-redirects/1.15.2:
+    resolution: {integrity: sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA==}
+    engines: {node: '>=4.0'}
+    peerDependencies:
+      debug: '*'
+    peerDependenciesMeta:
+      debug:
+        optional: true
     dev: true
 
   /follow-redirects/1.15.2_debug@4.3.4:
